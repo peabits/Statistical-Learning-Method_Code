@@ -16,6 +16,15 @@
 import time
 import numpy as np
 
+import os
+import sys
+ABSPATH = os.path.abspath(os.path.realpath(os.path.dirname(__file__)))
+print(__file__)
+print(os.path.dirname(__file__))
+print(os.path.realpath(os.path.dirname(__file__)))
+sys.exit(0)
+
+
 def loadData(fileName):
     '''
     加载文件
